@@ -1,0 +1,11 @@
+* {margin:0; padding:0;}
+
+#imgs{margin:20px auto; position:relative; width:950px; height:250px;}
+	#imgs .img {position:absolute;}
+	
+	#imgs .btn{display:none; position:absolute; width:40px; height:70px; background:rgba(0,0,0,0.5); color:#fff; text-align:center; line-height:70px; font-size:35px; cursor:pointer; top:50%; margin-top:-35px; -moz-user-select:none; -webkit-user-select:none; user-select:none;}
+	#imgs .btn1{right:0;}
+	
+	#imgs #tabs{color:#FFF; position:absolute; top:80%; left:50%; margin-left:-150px;}
+		#imgs #tabs .tab{cursor:pointer; border-radius:100%; width:30px; height:30px; float:left; background:black; text-align:center; line-height:30px; margin:10px; opacity:0.8; -moz-user-select:none; -webkit-user-select:none; user-select:none;}
+		#imgs #tabs .tabbg{background:#5388e8;}
